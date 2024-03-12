@@ -1,7 +1,10 @@
+Run the following to start the postgres container
+`docker-compose up -d`
+
 KOA API with a single endpoint.
 
 `npm install`
-
+`npm run migration:run` - This may take a couple of minutes as we're seeding data into the database
 `npm start` or `npm run dev`
 
 go to: localhost:3000/resource and make sure there is a valid response returned.
