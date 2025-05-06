@@ -1,6 +1,10 @@
+Run the following to start the postgres container
+`docker-compose up -d`
+
 KOA API with a single endpoint.
 
 `npm install`
+`npm run migration:run` - This may take a couple of minutes as we're inserting a lot of data
 
 `npm start` or `npm run dev`
 
