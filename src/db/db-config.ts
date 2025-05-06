@@ -1,5 +1,3 @@
-/** @format */
-
 import { Event } from "../entities/event";
 import { DataSourceOptions } from "typeorm";
 
